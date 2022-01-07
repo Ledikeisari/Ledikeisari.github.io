@@ -201,6 +201,18 @@ img {
   border-style: none;
 }
 
+#menu_img {
+  vertical-align: middle;
+  border-style: none;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+#menu_img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
